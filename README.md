@@ -1,55 +1,57 @@
 # Django URL Shortener
 
-A simple and elegant URL Shortener built with **Django**.  
-It allows users to shorten long URLs and easily redirect to the original address.
+A powerful URL shortener web application built with Django that transforms long URLs into short, manageable links.
 
 ## Features
 
-- Shorten any long URL into a unique short code  
-- Redirects users to the original URL automatically  
-- Manage all links via Django Admin  
-- Clean, minimalist interface with responsive design  
+- Convert long URLs into short, unique codes
+- Automatic redirection to original URLs
+- Admin dashboard for full management
+- Click analytics and usage tracking
 
----
+## Installation
 
-## Installation & Setup
-
-Follow these steps to run the project locally  
-
-1. Clone the Repository  
+1. **Clone the repository**
 ```bash
 git clone https://github.com/dimmuhamedsattarov/url_shortener.git
+```
+
+2. **Navigate to project directory**
+```bash
 cd url_shortener
 ```
 
-2. Create and Activate Virtual Environment  
+3. **Create and activate virtual environment**
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-3. Install Required Packages  
+4. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Apply Migrations  
+5. **Run migrations**
 ```bash
 python manage.py migrate
 ```
 
-5. Run the Development Server  
+6. **Start development server**
 ```bash
 python manage.py runserver
 ```
+## Basic Usage
 
-Then open your browser and visit: http://127.0.0.1:8000/
+### Shorten URL via Web Interface
+Visit http://127.0.0.1:8000/ and enter your long URL to get a shortened version.
 
----
+## Admin Access
 
-## Django Admin Access
-
-- **Login**: `admin`
+- **Username**: `admin`
 - **Password**: `MyStrongPass123`
 
 Access the admin panel at: http://127.0.0.1:8000/admin/
+
+
+
