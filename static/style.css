@@ -1,0 +1,55 @@
+/* Page background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #9999ff; /* page background */
+    margin: 0;
+}
+
+/* Middle container */
+.container {
+    text-align: center;
+    background: white; /* middle box stays white */
+    padding: 60px; /* increase padding to make box bigger */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 500px; /* wider box */
+    max-width: 90%;
+}
+
+/* Input field */
+input[type="url"] {
+    width: calc(100% - 140px); /* adjust width with bigger button */
+    padding: 14px; /* bigger input */
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 1.1em; /* bigger text inside input */
+    box-sizing: border-box;
+}
+
+/* Button */
+button {
+    padding: 14px 24px; /* bigger button */
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em; /* bigger text on button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Short link display */
+.short-link {
+    margin-top: 30px;
+    font-size: 1.4em; /* bigger text for short URL */
+    color: #333;
+    word-break: break-word;
+}
