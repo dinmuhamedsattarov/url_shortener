@@ -16,32 +16,25 @@ It allows users to shorten long URLs and easily redirect to the original address
 
 ## 🛠️ Installation & Setup
 
-Follow these steps to run the project locally 👇
+Follow these steps to run the project locally 
 
-### 1️⃣ Clone the Repository
-```bash
+1️⃣ Clone the Repository
 git clone https://github.com/dinmuhamedsattarov/url_shortener.git
 cd url_shortener
 
-### 2️⃣ Create and Activate Virtual Environment
-```bash
+2️⃣ Create and Activate Virtual Environment
 python3 -m venv .venv
 source .venv/bin/activate
 
-### 3️⃣ Install Required Packages
-```bash
+3️⃣ Install Required Packages
 pip install -r requirements.txt
 
-### 4️⃣ Apply Migrations
-```bash
+4️⃣ Apply Migrations
 python manage.py migrate
 
-### 5️⃣ Run the Development Server
-```bash
+5️⃣ Run the Development Server
 python manage.py runserver
 
-
 Then open your browser and visit:
-
 http://127.0.0.1:8000/
 
